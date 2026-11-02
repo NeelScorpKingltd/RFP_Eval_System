@@ -1,0 +1,408 @@
+{
+  "rfp_run_id": "RUN-20261030-001",
+  "created_at": "2026-10-30T00:00:00Z",
+  "status": "COMPLETED",
+  "active_criteria": [
+    {
+      "criterion_id": 1,
+      "name": "Technical Capability",
+      "description": "Architecture, integration, and technical fit",
+      "weight": 0.3,
+      "max_score": 10,
+      "is_active": true
+    },
+    {
+      "criterion_id": 2,
+      "name": "Implementation Approach",
+      "description": "Plan, timeline, delivery team, and milestones",
+      "weight": 0.2,
+      "max_score": 10,
+      "is_active": true
+    },
+    {
+      "criterion_id": 3,
+      "name": "Commercial Value",
+      "description": "Price, terms, assumptions, and total cost",
+      "weight": 0.2,
+      "max_score": 10,
+      "is_active": true
+    },
+    {
+      "criterion_id": 4,
+      "name": "Security and Compliance",
+      "description": "Security controls and compliance evidence",
+      "weight": 0.2,
+      "max_score": 10,
+      "is_active": true
+    },
+    {
+      "criterion_id": 5,
+      "name": "Support and Experience",
+      "description": "Support model, references, and relevant experience",
+      "weight": 0.1,
+      "max_score": 10,
+      "is_active": true
+    }
+  ],
+  "peer_benchmarks": {
+    "1": 9.0,
+    "2": 9.0,
+    "3": 9.0,
+    "4": 9.0,
+    "5": 9.0
+  },
+  "validation_warnings": [],
+  "tie_break_explanations": [
+    "Rank 1 (NexaWorks) ranked above Rank 2 (Apex Systems) via Tier 1 rule: Higher PPI (90.00 vs 85.56).",
+    "Rank 2 (Apex Systems) ranked above Rank 3 (Orbit Digital) via Tier 1 rule: Higher PPI (85.56 vs 76.67).",
+    "Rank 3 (Orbit Digital) ranked above Rank 4 (BrightPath Tech) via Tier 1 rule: Higher PPI (76.67 vs 72.22)."
+  ],
+  "supplier_rankings": [
+    {
+      "final_rank": 1,
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-10-12",
+      "experience_rating": 4.5,
+      "absolute_score": 81.0,
+      "ppi": 90.0,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 8.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "weighted_contribution": 24.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Approach",
+          "weight": 20.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 18.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "weighted_contribution": 16.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security and Compliance",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "weighted_contribution": 14.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support and Experience",
+          "weight": 10.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 9.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        }
+      ],
+      "overall_summary": "Synthetic proposal review for NexaWorks.",
+      "procurement_risks": []
+    },
+    {
+      "final_rank": 2,
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-10-10",
+      "experience_rating": 4.8,
+      "absolute_score": 77.0,
+      "ppi": 85.56,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 27.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Approach",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "weighted_contribution": 14.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 5.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_pct": 55.56,
+          "weighted_contribution": 10.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security and Compliance",
+          "weight": 20.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 18.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support and Experience",
+          "weight": 10.0,
+          "score": 8.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "weighted_contribution": 8.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        }
+      ],
+      "overall_summary": "Synthetic proposal review for Apex Systems.",
+      "procurement_risks": []
+    },
+    {
+      "final_rank": 3,
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-10-15",
+      "experience_rating": 4.6,
+      "absolute_score": 69.0,
+      "ppi": 76.67,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 6.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_pct": 66.67,
+          "weighted_contribution": 18.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Approach",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "weighted_contribution": 14.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "weighted_contribution": 14.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security and Compliance",
+          "weight": 20.0,
+          "score": 7.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_pct": 77.78,
+          "weighted_contribution": 14.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support and Experience",
+          "weight": 10.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 9.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        }
+      ],
+      "overall_summary": "Synthetic proposal review for Orbit Digital.",
+      "procurement_risks": []
+    },
+    {
+      "final_rank": 4,
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-10-14",
+      "experience_rating": 3.4,
+      "absolute_score": 65.0,
+      "ppi": 72.22,
+      "scorecard": [
+        {
+          "criterion_id": 1,
+          "name": "Technical Capability",
+          "weight": 30.0,
+          "score": 6.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_pct": 66.67,
+          "weighted_contribution": 18.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 2,
+          "name": "Implementation Approach",
+          "weight": 20.0,
+          "score": 8.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_pct": 88.89,
+          "weighted_contribution": 16.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 3,
+          "name": "Commercial Value",
+          "weight": 20.0,
+          "score": 9.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_pct": 100.0,
+          "weighted_contribution": 18.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 4,
+          "name": "Security and Compliance",
+          "weight": 20.0,
+          "score": 4.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -5.0,
+          "relative_pct": 44.44,
+          "weighted_contribution": 8.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        },
+        {
+          "criterion_id": 5,
+          "name": "Support and Experience",
+          "weight": 10.0,
+          "score": 5.0,
+          "max_score": 10,
+          "benchmark": 9.0,
+          "gap": -4.0,
+          "relative_pct": 55.56,
+          "weighted_contribution": 5.0,
+          "justification": "Supported by the synthetic proposal.",
+          "evidence": "See the submitted proposal PDF."
+        }
+      ],
+      "overall_summary": "Synthetic proposal review for BrightPath Tech.",
+      "procurement_risks": [
+        {
+          "risk_category": "Commercial",
+          "severity": "Medium",
+          "issue": "Travel expenses may increase total cost.",
+          "verbatim_excerpt": "travel expenses are passed through to the customer"
+        },
+        {
+          "risk_category": "Security",
+          "severity": "High",
+          "issue": "Independent compliance evidence is absent.",
+          "verbatim_excerpt": "omits independent compliance evidence"
+        },
+        {
+          "risk_category": "SLA",
+          "severity": "Medium",
+          "issue": "Service credits have a low cap.",
+          "verbatim_excerpt": "SLA credits are capped at one month's fees"
+        }
+      ]
+    }
+  ],
+  "winner_negotiation_playbook": {},
+  "security_findings": {
+    "NexaWorks": [],
+    "Apex Systems": [],
+    "Orbit Digital": [],
+    "BrightPath Tech": []
+  },
+  "cache_stats": {
+    "hits": 0,
+    "misses": 4,
+    "llm_calls": 4,
+    "fallbacks": 0
+  },
+  "meta": {
+    "provider": "openai",
+    "model": "fake",
+    "fault_mode": false,
+    "prompt_version": "eval-v2"
+  }
+}
