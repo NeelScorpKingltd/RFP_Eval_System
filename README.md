@@ -2,6 +2,8 @@
 
 A Streamlit application for evaluating supplier RFP proposals with an auditable, deterministic ranking. An LLM extracts criterion scores, evidence, justifications, and procurement risks from each PDF. Python validates those outputs and performs every calculation and ranking decision. A Best-and-Final-Offer (BAFO) playbook can be generated for the winner after a completed run.
 
+Try Live @ https://neelscorpkingltd-rfp-eval-system-app-4ganjw.streamlit.app/
+
 ## Features and capabilities
 
 - Evaluate two or more supplier proposals against editable, weighted criteria.
